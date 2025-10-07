@@ -9,20 +9,20 @@ This repository contains a Python-based TCP port scanner (scanner.py) and a smal
 
 Key principles:
 
-1. Simple and readable code (teaching-first)
-2. Uses standard Python library (no mandatory third-party packages)
+1. Simple and readable code
+2. Uses standard Python library 
 3. Configurable port range, concurrency, and timeouts
 4. Exports machine-readable CSV and Markdown report to easily document results
 
 Features:
 
 a. Multi-threaded TCP connect-based scanning
-b. Banner grabbing (best-effort) for open ports
+b. Banner grabbing for open ports
 c. CSV export of results for artifact submission
 d. Simple Markdown report generator summarizing open services
 e. Command-line options for:
   1. target host (IP or hostname)
-  2. port ranges (single ports, comma list, or ranges like 1-1024)
+  2. port ranges 
   3. worker threads
   4. socket timeout
   5. CSV / Markdown output file names
