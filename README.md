@@ -1,6 +1,6 @@
 Port Scanner Tool
 
-A lightweight, multi-threaded TCP port scanner in Python
+A lightweight, multi-threaded TCP port scanner in Python.
 This project implements a safe, lab-friendly port scanner that discovers open TCP ports on a target host, attempts simple banner grabbing, and exports results to CSV and a Markdown report. It’s intended for learning, demonstrations, and use only against systems you own or have explicit permission to test (e.g., Metasploitable or a local VM).
 
 Project summary:
